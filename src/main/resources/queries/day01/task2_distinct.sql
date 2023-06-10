@@ -5,6 +5,7 @@ select STREET_ADDRESS, POSTAL_CODE from LOCATIONS;
 select DISTINCT STREET_ADDRESS, POSTAL_CODE from LOCATIONS;
 
 
+
 -- Get me first names from employees
 SELECT FIRST_NAME from EMPLOYEES;  -- this will show all the names
 SELECT DISTINCT FIRST_NAME from EMPLOYEES; -- this will remove duplicates and then show the names
